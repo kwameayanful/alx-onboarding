@@ -2,6 +2,7 @@ READ input
 SET sum = 0
 IF (input > 0)
 	SET sum = sum  + input
+	READ input
 ELSE
 	STOP
-WRITE SUM
+WRITE sum
