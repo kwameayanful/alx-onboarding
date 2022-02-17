@@ -1,0 +1,9 @@
+READ input
+SET counter = 0
+SET num = number of inputs in input
+SET sum = 0
+SET square = 0
+FOR index in range counter and num-1
+	SET square = input[index]*input[index]
+	SET sum = sum + square
+WRITE sum

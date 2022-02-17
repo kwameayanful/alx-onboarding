@@ -1,0 +1,15 @@
+READ num1, num2, num3
+IF (num1 < num2)
+	IF (num2 < num3)
+		WRITE num1, num2, num3
+	ELSE IF (num1 > num3)
+		WRITE num3, num1, num2
+	ELSE
+		WRITE num1, num3, num2
+ELSE
+	IF (num1 < num3)
+		WRITE num2, num1, num3
+	ELSE IF (num2 > num3)
+		WRITE num3, num2, num1
+	ELSE
+		WRITE num2, num3, num1

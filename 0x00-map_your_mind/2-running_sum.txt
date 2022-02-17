@@ -1,0 +1,7 @@
+READ input
+SET sum = 0
+IF (input > 0)
+	SET sum = sum  + input
+ELSE
+	STOP
+WRITE SUM
